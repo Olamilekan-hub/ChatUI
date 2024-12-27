@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.arr{
+    height: 20px;
+    width: 20px;
+}
+
+hr {
+    color: #A4A4A4;
+}
+
+.input-container {
+    position: relative;
+    border-radius: 20px; 
+    border: 1px solid #ccc; 
+    padding: 5px;
+  }
+
+  .input-field {
+    width: 100%;
+    border: none;
+    outline: none;
+    padding-left: 10px; 
+  }
+
+  .icons {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%); 
+  }
+
+  .icons img {
+    width: 20px;
+    height: 20px;
+    margin-left: 5px; 
+  }
+
+  .center {
+    display: block;
+    margin: 5px auto;
+    width: 25px;
+  }
+
+  .rounded-all-but-bottom-left {
+    border-width: 1px;
+    border-radius: 20px; /* Adjust this value for overall roundness */
+    border-bottom-left-radius: 5px; /* Reduce roundness on bottom left */
+  }
