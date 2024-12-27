@@ -49,3 +49,8 @@ hr {
     border-radius: 20px; /* Adjust this value for overall roundness */
     border-bottom-left-radius: 5px; /* Reduce roundness on bottom left */
   }
+
+  .rounded-all-but-bottom-left1 {
+    border-radius: 20px; /* Adjust this value for overall roundness */
+    border-bottom-left-radius: 5px; /* Reduce roundness on bottom left */
+  }
